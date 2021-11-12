@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,#root{
+  background: rgb(233, 233, 233);
+}
+
+.navbar{
+  background: rgb(112, 112, 255);
+  width: 100vw;
+  padding: 20px;
+  color: white;
+}
+
+.shoplist_cont{
+  border: 1px solid red;
+  width: 95%;
+  margin: 20px auto;
+
+}
+
+.listing{
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+}
+
+
+
+.image_container{
+  width: 80px;
+  height: 80px;
+}
+
+.image_container img{
+  width: 100%;
+  height: 100%;
+}
+
+.input_number{
+  height:fit-content;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.input_number input{
+  width: 4ch;
+  background: transparent;
+  border:none;
+  outline:none;
+}
+
+.input_number input[type="number"]{
+  font-size: 1.5rem;
+}
+
+.input_number input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
+
+.list_details{
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  margin-top: 10px;
+  width: 30%;
+}
+
+.list_name{
+  font-weight: bold;
+}
+
+.list_price{
+  color: rgb(155, 155, 155);
+  font-weight: bolder;
+}
+
+.remove_btn button{
+  margin-top: 4px;
+  font-size: 14px;
+  border: none;
+  outline:none;
+  color: rgb(82, 82, 192);
+  font-weight: bold;
+}
+
+.unlist{
+  margin-top: 60px;
+}
+
+.unlist li{
+  margin-top: 20px;
+}
+
+
+.input_number{
+  display:flex;
+}
+
+.num_cont{
+    margin-right: 6px;
+    font-size: 1.7rem;
+    margin-top:1px;
+}
+
+.arrows_cont{
+  display:flex;
+  flex-direction: column;
+}
+
+.arrows_cont i{
+  position:relative;
+}
+
+.arrows_cont i:active{
+  color: blue;
+}
+
+
+.arrows_cont .fa-chevron-up{
+  left:-20px;
+  top:-10px;
+}
+
+
+.arrows_cont .fa-chevron-down{
+  left:-20px;
+  top:16px;
+}
+
+.total_balance_container{
+  width: 80%;
+  border-top:1px solid rgb(144, 144, 144);
+  margin:10px auto;
+  margin-top: 30px;
+}
+
+.total{
+  display:flex;
+  justify-content:space-between;
+}
+
+.total_head,.total_num{
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+
+}
+
+.hide{
+  display:none;
+}
+
+
+.clearAll_btn{
+  width:fit-content;
+  margin: 10px auto;
+
+}
+
+.clearAll{
+  padding:10px 20px;
+  font-size: 1rem;
+  color: white;
+  background:rgb(251, 37, 37);
+  font-weight: bolder;
+  outline: none;
+}
